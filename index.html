@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- style -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tailwind.css">
+    <title>Mealz</title>
+</head>
+
+<body class="bg-lightgray">
+    <!-- header -->
+    <header class="h-[70px] sm:h-[100px] flex justify-center items-center sticky top-0 bg-lightgray to-zinc-500 z-50">
+        <img class="h-5 sm:h-[30px]" src="/images/Mealz.svg" alt="mealz logo">
+    </header>
+
+    <!-- hero -->
+    <section class="h-[350px] md:h-[600px] bg-[url('./images/hero.jpg')] flex justify-center items-center bg-cover">
+        <div
+            class="w-[302px] sm:w-[878px] py-8 flex flex-col justify-center items-center font-black text-[28px] sm:text-5xl text-center md:leading-snug bg-white">
+            <div class="flex items-baseline">
+                <h2>Your favorite</h2>
+                &nbsp;
+                <img src="/images/Mealz.svg" class="h-6 sm:h-11" alt="">
+            </div>
+            <h2 class="md:mt-7">delivered.</h2>
+        </div>
+    </section>
+
+    <!-- download app -->
+    <section
+        class="flex flex-col items-center md:flex-row md:gap-[100px] justify-center py-10 md:py-20 relative overflow-hidden">
+        <img src="/images/mobile.svg" class="max-w-[110px] sm:max-w-[160px]" alt="">
+
+        <div class="p-8 flex flex-col justify-between gap-7">
+            <h2 class="font-black text-3xl sm:text-5xl text-center ">Download the App</h2>
+            <ul class="grid gap-3">
+                <li class="text-base sm:text-xl flex gap-5">
+                    <img src="/images/check.svg" alt="">
+                    <p>Order now or schedule a delivery time.</p>
+                </li>
+                <li class="text-base sm:text-xl flex gap-5">
+                    <img src="/images/check.svg" alt="">
+                    <p>Track your order.</p>
+                </li>
+                <li class="text-base sm:text-xl flex gap-5">
+                    <img src="/images/check.svg" alt="">
+                    <p>Exclusive offers.</p>
+                </li>
+                <li class="text-base sm:text-xl flex gap-5">
+                    <img src="/images/check.svg" alt="">
+                    <p>Online payment.</p>
+                </li>
+                <li class="text-base sm:text-xl flex gap-5">
+                    <img src="/images/check.svg" alt="">
+                    <p>Cash on delivery.</p>
+                </li>
+            </ul>
+            <div class="flex gap-8 max-w-xs">
+                <img class="hover:scale-105 duration-300 cursor-pointer h-10 md:h-auto"
+                    src="/images/Google Play dark.svg" alt="">
+                <img class="hover:scale-105 duration-300 cursor-pointer h-10 md:h-auto" src="/images/App Store dark.svg"
+                    alt="">
+            </div>
+        </div>
+
+        <img class="absolute top-0 right-0 -translate-y-1/4 max-w-[120px] lg:max-w-full translate-x-1/4 -z-10"
+            src="/images/egg-icon.svg" alt="">
+        <img class="absolute bottom-[60%] md:bottom-0 left-0 lg:translate-y-1/4 -translate-x-1/4 max-w-[150px] lg:max-w-full -z-10"
+            src="/images/tortilla-icon.svg" alt="">
+    </section>
+
+
+    <!-- join us -->
+    <section
+        class="py-12 md:py-20 px-8 flex flex-col items-center justify-between gap-8 md:gap-20 bg-primary relative overflow-hidden">
+
+        <h2 class="font-black text-4xl text-white">Join Us</h2>
+
+        <div class="grid gap-5 w-full md:w-fit z-10 md:grid-cols-3">
+            <button
+                class="flex flex-row md:flex-col gap-8 bg-white p-5 rounded-2xl items-center justify-center md:w-56 md:h-[274px] hover:scale-105 duration-300">
+                <img class="w-[50px] md:w-[100px]" src="images/partners-icon.svg" alt="">
+                <p class="text-2xl md:text-3xl font-bold">Partners</p>
+            </button>
+            <button
+                class="flex flex-row md:flex-col gap-8 bg-white p-5 rounded-2xl items-center justify-center md:w-56 md:h-[274px] hover:scale-105 duration-300">
+                <img class="w-[50px] md:w-[100px]" src="images/drivers-icon.svg" alt="">
+                <p class="text-2xl md:text-3xl font-bold">Drivers</p>
+            </button>
+            <button
+                class="flex flex-row md:flex-col gap-8 bg-white p-5 rounded-2xl items-center justify-center md:w-56 md:h-[274px] hover:scale-105 duration-300">
+                <img class="w-[50px] md:w-[100px]" src="images/jobs-icon.svg" alt="">
+                <p class="text-2xl md:text-3xl font-bold">Jobs</p>
+            </button>
+        </div>
+
+        <img src="/images/burger-icon.svg" class="absolute w-40 md:w-auto top-16 -right-5 md:right-[10%] -z-0" alt="">
+    </section>
+
+    <!-- FAQ -->
+    <section class="grid gap-8 md:gap-20 py-12 max-w-3xl mx-auto">
+        <h2 class="font-black text-4xl text-center">FAQ</h2>
+
+        <div class="grid gap-4">
+            <div class="bg-white min-w-full">
+                <div class="question flex justify-between items-center cursor-pointer p-8">
+                    <p class="font-medium text-xl md:text-2xl">What is Mealz?</p>
+                    <img class="faqIcon h-5 w-5 md:h-7 md:w-7" src="/images/plus-icon.svg" alt="">
+                </div>
+                <div class="answer max-h-0 overflow-hidden transition-all duration-300">
+                    <p class="px-8 pb-8 leading-6 md:text-xl">Mealz is an online food delivery service.</p>
+                </div>
+            </div>
+            <div class="bg-white min-w-full">
+                <div class="question flex justify-between items-center cursor-pointer p-8">
+                    <p class="font-medium text-xl md:text-2xl">What are the accepted payment methods?</p>
+                    <img class="faqIcon h-5 w-5 md:h-7 md:w-7" src="/images/plus-icon.svg" alt="">
+                </div>
+                <div class="answer max-h-0 overflow-hidden transition-all duration-300">
+                    <p class="px-8 pb-8 leading-6 md:text-xl">We accept online payments & cash on delivery.</p>
+                </div>
+            </div>
+            <div class="bg-white min-w-full">
+                <div class="question flex justify-between items-center cursor-pointer p-8">
+                    <p class="font-medium text-xl md:text-2xl">What are Mealz working hours?</p>
+                    <img class="faqIcon h-5 w-5 md:h-7 md:w-7" src="/images/plus-icon.svg" alt="">
+                </div>
+                <div class="answer max-h-0 overflow-hidden transition-all duration-300">
+                    <p class="px-8 pb-8 leading-6 md:text-xl">Our office hours are from 8 am to 4 pm, everyday!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-xs sm:text-base md:text-xl text-center">
+            <p>Got another question? We're here to help!</p>
+            <p>Email us at <a href="mailto:" class="underline">example@mealz.com</a></p>
+        </div>
+
+    </section>
+
+
+    <!-- footer -->
+    <footer class="flex flex-col bg-primary text-white py-12 lg:px-48 gap-12 md:gap-20 md:py-20">
+        <div class="grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 px-8 gap-12 justify-between">
+            <div class="grid gap-6 min-w-max">
+                <h2 class="font-bold text-3xl">Mealz</h2>
+                <div class="grid gap-3">
+                    <a class="hover:underline text-white/90 hover:text-white" href="">About us</a>
+                    <a class="hover:underline text-white/90 hover:text-white" href="">Jobs</a>
+                    <a class="hover:underline text-white/90 hover:text-white" href="">Become a partner</a>
+                    <a class="hover:underline text-white/90 hover:text-white" href="">Jois as a driver</a>
+                    <a class="hover:underline text-white/90 hover:text-white" href="">Releases</a>
+                </div>
+            </div>
+            <div class="grid gap-6 min-w-max">
+                <h2 class="font-bold text-3xl">Support</h2>
+                <div class="grid gap-3">
+                    <a class="hover:underline text-white/90 hover:text-white" href="">Contact us</a>
+                    <a class="hover:underline text-white/90 hover:text-white" href="">Help center</a>
+                    <a class="hover:underline text-white/90 hover:text-white" href="">Terms of services</a>
+                    <a class="hover:underline text-white/90 hover:text-white" href="">Legal</a>
+                    <a class="hover:underline text-white/90 hover:text-white" href="">Privacy policy</a>
+                </div>
+            </div>
+            <div class="grid gap-6 min-w-max">
+                <h2 class="font-bold text-3xl">Follow us</h2>
+                <div class="grid gap-3">
+                    <a class="hover:underline text-white/90 hover:text-white" href="">Facebook</a>
+                    <a class="hover:underline text-white/90 hover:text-white" href="">Twitter</a>
+                    <a class="hover:underline text-white/90 hover:text-white" href="">Instagram</a>
+                    <a class="hover:underline text-white/90 hover:text-white" href="">LinkedIn</a>
+                </div>
+            </div>
+            <div class="grid gap-6 min-w-max">
+                <h2 class="font-bold text-3xl">Download App</h2>
+                <div class="grid gap-3">
+                    <img class="hover:scale-105 duration-300 cursor-pointer w-36"
+                    src="/images/Google Play dark.svg" alt="">
+                <img class="hover:scale-105 duration-300 cursor-pointer w-36" src="/images/App Store dark.svg"
+                    alt="">
+                </div>
+            </div>
+        </div>
+        <div class="grid gap-8 justify-items-center">
+        <img class="h-[30px]" src="/images/Mealz-white.svg" alt="mealz logo">
+            <p class="text-base font-normal text-center">&copy; Mealz | All rights reserved</p>
+        </div>
+    </footer>
+  
+    <script src="main.js"></script>
+
+</body>
+
+</html>
