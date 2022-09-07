@@ -14,7 +14,7 @@ HTML - Tailwind CSS - Vanilla JavaScript
 [View file on Figma](https://www.figma.com/file/1145077165519082651)
 
 ## Demo
-
+[View Live Demo Here](https://mfg888.github.io/Mealz/)
 
 ## Sections
 * Header
