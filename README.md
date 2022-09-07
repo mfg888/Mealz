@@ -3,7 +3,7 @@
 ![Mealz cover](https://user-images.githubusercontent.com/99144223/188871605-7b4bf970-a4fa-45e6-9675-aad2c8ec6826.png)
 
 
-Mealz is a fully responsive online food delivery landing page. I've created a desktop and a mobile version.
+Mealz is a fully responsive online food delivery landing page.
 
 
 ## Tech Stack :computer:
