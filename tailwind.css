@@ -813,6 +813,10 @@ video {
   background-image: url('./images/hero.jpg');
 }
 
+.bg-\[url\(\'\.images\/hero\.jpg\'\)\] {
+  background-image: url('.images/hero.jpg');
+}
+
 .to-zinc-500 {
   --tw-gradient-to: #71717a;
 }
